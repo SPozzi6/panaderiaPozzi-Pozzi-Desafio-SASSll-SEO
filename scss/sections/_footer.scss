@@ -1,0 +1,30 @@
+/*INICIA FOOTER*/
+.contenedor-footer {
+    @include flex-column;
+    background-color: $brown-4;
+    margin: 12px;
+        .informacion-contacto {
+            text-align: center;
+            padding: 3px;
+            .texto {
+                font-family: $ff-roboto;
+                font-size: $text-sm;
+                color: $white;
+            }
+        }
+        .h3-titulo {
+            @include subtitulo-sm;
+            color: $white;
+            @include breakpoint-md {
+                @include subtitulo-md;
+            }
+        }
+        .contenedor-logos-redes {
+            margin: 3px auto;
+            .logos-redes {
+                margin-bottom: 6px;
+                padding: 6px;
+            }
+        }
+}
+/*TERMINA FOOTER*/

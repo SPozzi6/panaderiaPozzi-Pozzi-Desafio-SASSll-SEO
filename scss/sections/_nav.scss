@@ -1,0 +1,37 @@
+/*INICIA NAV*/
+.header-pedidos {
+    background-color: $grey-1;
+    text-align: center;
+    font-size: $text-sm;
+} 
+
+.nav {
+    background-color: $brown-2;
+    .logo-panaderia{
+        max-height: 50px;
+        margin: 3px;
+    }
+    .links-lista {
+        color: $white;
+        text-decoration: none;
+        list-style: none;
+        font-weight: lighter;
+        font-size: $text-sm;
+        @include breakpoint-md {
+            font-size: $text-md;
+            transition: 1s;
+        }
+        @include breakpoint-lg {
+            font-size: $text-lg;
+            transition: 1s;
+        }
+        &:hover {
+            color: $brown-4;
+            transition: 0.5s;
+            border-radius: 4px;
+            cursor: pointer;
+        } 
+    }
+}
+/*TERMINA NAV*/
+

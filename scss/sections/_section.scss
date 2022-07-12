@@ -1,0 +1,30 @@
+/*INICIA SECTION*/
+.contenedor-general {
+    background-color: $grey-1;
+    .contenedor-section {
+        @include flex-center;
+        .articulo {
+            width: 100%;
+            @include breakpoint-lg {
+                width: 33%;
+            }
+            .h2-titulo {
+                @include titulo-sm;
+                @include breakpoint-md {
+                    @include titulo-md;
+                }
+            }
+            .imagen-servicios-nosotros {
+                @include flex-center;
+            }
+            .texto {
+                font-size: $text-sm;
+                text-align: center;
+                padding: 6px;
+                margin: auto;
+                max-width: 600px;
+            }
+        }
+    }
+}
+/*TERMINA SECTION*/

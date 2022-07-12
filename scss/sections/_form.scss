@@ -1,0 +1,51 @@
+/*INICIA FORM*/
+.contenedor-form {
+    @include flex-column;
+    @include breakpoint-lg {
+        @include flex-row;
+    }
+    .contenedor-casillas {
+        width: 100%;
+        @include breakpoint-lg {
+            width: 50%
+        }
+        .h2-titulo {
+            @include titulo-sm;
+            @include breakpoint-md {
+                @include titulo-md;
+            }
+        }
+        .texto {
+            font-family: $ff-roboto;
+            font-size: $text-sm;
+        }
+        .button {
+            @include boton;
+            &:hover {
+                background-color: $brown-4;
+                color: $grey-1;
+                transition: 1s;
+            }
+        }
+    }
+    .contenedor-mapa {
+        width: 100%;
+        @include breakpoint-lg {
+            width: 50%
+        }
+        .h2-titulo{
+            @include titulo-sm;
+            @include breakpoint-md {
+                @include titulo-md;
+            }
+        }
+        .mapa {
+            height: 300px;
+            @include breakpoint-lg {
+                height: 420px;
+            }
+        }
+    }
+
+}
+/*TERMINA FORM*/
