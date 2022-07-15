@@ -1,0 +1,23 @@
+{
+  "name": "desafio9",
+  "version": "1.0.0",
+  "description": "Proyecto Coderhouse - Desafio Aplicando SASS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPozzi6/panaderiaPozzi-Pozzi-Desafio-SASSll-SEO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SPozzi6/panaderiaPozzi-Pozzi-Desafio-SASSll-SEO/issues"
+  },
+  "homepage": "https://github.com/SPozzi6/panaderiaPozzi-Pozzi-Desafio-SASSll-SEO#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

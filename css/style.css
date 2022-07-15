@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Satisfy&family=Ubuntu&display=swap");
 * {
-  font-family: "Roboto", sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -19,6 +18,7 @@ body {
 .header-pedidos {
   background-color: #f2f2f2;
   text-align: center;
+  font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -33,6 +33,7 @@ body {
   color: white;
   text-decoration: none;
   list-style: none;
+  font-family: "Nunito", sans-serif;
   font-weight: lighter;
   font-size: 1.5rem;
 }
@@ -49,7 +50,7 @@ body {
   }
 }
 .nav .links-lista:hover {
-  color: #8c4c27;
+  color: #a64f03;
   transition: 0.5s;
   border-radius: 4px;
   cursor: pointer;
@@ -71,22 +72,29 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   width: 100%;
-  font-family: "Cinzel", serif;
-  font-size: 2.3rem;
+  font-family: "Satisfy", cursive;
+  font-size: 4rem;
   transition: 1s;
 }
 @media screen and (min-width: 768px) {
   .header .h1-header {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 }
 @media screen and (min-width: 992px) {
   .header .h1-header {
-    font-size: 5rem;
+    font-size: 8rem;
   }
 }
 .header .imagen-header {
   width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+@media screen and (min-width: 768px) {
+  .header .imagen-header {
+    height: 72vh;
+  }
 }
 
 /*TERMINA HEADER*/
@@ -98,6 +106,23 @@ body {
   display: flex;
   justify-content: center;
 }
+.contenedor-general .contenedor-section .h2-titulo {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  padding: 12px;
+  text-align: center;
+  transition: 1s;
+}
+@media screen and (min-width: 768px) {
+  .contenedor-general .contenedor-section .h2-titulo {
+    font-size: 3rem;
+    text-decoration: underline;
+    padding: 12px;
+    text-align: center;
+    transition: 1s;
+  }
+}
 .contenedor-general .contenedor-section .articulo {
   width: 100%;
 }
@@ -107,6 +132,7 @@ body {
   }
 }
 .contenedor-general .contenedor-section .articulo .h2-titulo {
+  font-family: "Nunito", sans-serif;
   font-size: 2rem;
   text-decoration: underline;
   padding: 12px;
@@ -127,6 +153,7 @@ body {
   justify-content: center;
 }
 .contenedor-general .contenedor-section .articulo .texto {
+  font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
   text-align: center;
   padding: 6px;
@@ -136,11 +163,30 @@ body {
 
 /*TERMINA SECTION*/
 /*INICIA PRODUCTOS*/
+.h2-titulo {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  padding: 12px;
+  text-align: center;
+  transition: 1s;
+}
+@media screen and (min-width: 768px) {
+  .h2-titulo {
+    font-size: 3rem;
+    text-decoration: underline;
+    padding: 12px;
+    text-align: center;
+    transition: 1s;
+  }
+}
+
 .contenedor-productos {
   display: flex;
   flex-direction: column;
 }
 .contenedor-productos .h2-titulo {
+  font-family: "Ubuntu", sans-serif;
   font-size: 2rem;
   text-decoration: underline;
   padding: 12px;
@@ -179,6 +225,7 @@ body {
   width: 100%;
 }
 .contenedor-productos .producto .h3-titulo {
+  font-family: "Nunito", sans-serif;
   font-size: 1.7rem;
   padding: 12px;
   text-align: center;
@@ -193,7 +240,7 @@ body {
   }
 }
 .contenedor-productos .producto .texto {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -215,6 +262,24 @@ body {
 
 /*TERMINA PRODUCTOS*/
 /*INICIA FORM*/
+.h2-titulo {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  padding: 12px;
+  text-align: center;
+  transition: 1s;
+}
+@media screen and (min-width: 768px) {
+  .h2-titulo {
+    font-size: 3rem;
+    text-decoration: underline;
+    padding: 12px;
+    text-align: center;
+    transition: 1s;
+  }
+}
+
 .contenedor-form {
   display: flex;
   flex-direction: column;
@@ -234,6 +299,7 @@ body {
   }
 }
 .contenedor-form .contenedor-casillas .h2-titulo {
+  font-family: "Nunito", sans-serif;
   font-size: 2rem;
   text-decoration: underline;
   padding: 12px;
@@ -250,21 +316,24 @@ body {
   }
 }
 .contenedor-form .contenedor-casillas .texto {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
 }
-.contenedor-form .contenedor-casillas .button {
-  font-family: "Roboto", sans-serif;
+.contenedor-form .contenedor-casillas .button, .contenedor-form .contenedor-casillas .button-rounded {
+  font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
   background-color: #d98841;
   border: none;
   color: white;
   cursor: pointer;
 }
-.contenedor-form .contenedor-casillas .button:hover {
-  background-color: #8c4c27;
+.contenedor-form .contenedor-casillas .button:hover, .contenedor-form .contenedor-casillas .button-rounded:hover {
+  background-color: #a64f03;
   color: #f2f2f2;
   transition: 1s;
+}
+.contenedor-form .contenedor-casillas .button-rounded {
+  border-radius: 6px;
 }
 .contenedor-form .contenedor-mapa {
   width: 100%;
@@ -275,6 +344,7 @@ body {
   }
 }
 .contenedor-form .contenedor-mapa .h2-titulo {
+  font-family: "Nunito", sans-serif;
   font-size: 2rem;
   text-decoration: underline;
   padding: 12px;
@@ -302,6 +372,7 @@ body {
 /*TERMINA FORM*/
 /*INICIA FOOTER*/
 .contenedor-footer {
+  font-family: "Nunito", sans-serif;
   display: flex;
   flex-direction: column;
   background-color: #8c4c27;
@@ -312,7 +383,6 @@ body {
   padding: 3px;
 }
 .contenedor-footer .informacion-contacto .texto {
-  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   color: white;
 }
@@ -341,4 +411,4 @@ body {
 
 /*TERMINA FOOTER*/
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */

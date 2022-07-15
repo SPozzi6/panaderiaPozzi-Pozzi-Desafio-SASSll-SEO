@@ -1,3 +1,14 @@
+//MAP
+$paleta: (
+    'uno': #f2f2f2,
+    'dos': #f2c894,
+    'tres': #d98841,
+    'cuatro': #a64f03,
+    'cinco': #8c4c27,
+    'seis': white,
+    'siete': black,
+);
+
 //FLEX
 
 @mixin flex-center {
@@ -64,10 +75,10 @@
 
 //BUTTON
 @mixin boton {
-    font-family: $ff-roboto;
+    font-family: $ff-nunito;
     font-size: $text-sm;
-    background-color: $brown-2;
+    background-color: map-get($map: $paleta, $key: 'tres');
     border: none;
-    color: $white;
+    color: map-get($map: $paleta, $key: 'seis');
     cursor: pointer;
 }

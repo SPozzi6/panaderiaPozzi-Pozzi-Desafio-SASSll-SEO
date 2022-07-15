@@ -1,17 +1,9 @@
-//COLORS
-$grey-1: #f2f2f2;
-$brown-1: #f2c894;
-$brown-2: #d98841;
-$brown-3: #a64f03;
-$brown-4: #8c4c27;
-$white: white;
-$black: black;
-
 //FONTS
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Satisfy&family=Ubuntu&display=swap');
 
-$ff-cinzel: 'Cinzel', serif;
-$ff-roboto: 'Roboto', sans-serif;
+$ff-nunito: 'Nunito', sans-serif;;
+$ff-ubuntu: 'Ubuntu', sans-serif;
+$ff-satisfy: 'Satisfy', cursive;
 
 //TEXT SIZE
 $text-sm: 1.5rem;
@@ -19,9 +11,9 @@ $text-md: 1.7rem;
 $text-lg: 2rem;
 
 // PRINCIPAL TITLE SIZE
-$title1-sm: 2.3rem;
-$title1-md: 4rem;
-$title1-lg: 5rem;
+$title1-sm: 4rem;
+$title1-md: 6rem;
+$title1-lg: 8rem;
 
 //SECONDARY TITLE SIZE
 $title2-sm: 2rem;
